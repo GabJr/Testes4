@@ -10,7 +10,7 @@ public class MainTeste {
         pessoa2.trabalho();
         System.out.println(pessoa1.toString());
         System.out.println(pessoa2.toString());
-
+        
     }
 }
 
