@@ -6,10 +6,10 @@ public class MainTeste {
     public static void main(String[] args) {
 
       Scanner sc = new Scanner(System.in);
-//Isso é um teste
+
 
        // Pessoa pessoa0= new Funcionario(
-            //    "Fulnao",3033485,28,"Masculino",25);
+      //    "Fulnao",3033485,28,"Masculino",25);
 
         System.out.println("Digite o nome do funcionario:");
         String nome = sc.nextLine();
