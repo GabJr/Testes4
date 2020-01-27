@@ -7,7 +7,6 @@ public class MainTeste {
 
       Scanner sc = new Scanner(System.in);
 
-
        // Pessoa pessoa0= new Funcionario(
       //    "Fulnao",3033485,28,"Masculino",25);
 
