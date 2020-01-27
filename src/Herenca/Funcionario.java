@@ -18,12 +18,21 @@ public class Funcionario extends Pessoa {
 
     @Override
     public void trabalho() {
-        if (idFuncionario == 0){
+        if (idFuncionario == 0 || idFuncionario<0){
             System.out.println("Funcionario não encontrado");
         }else{
             System.out.println("Empregado como funcionario");
         }
 
+    }
+
+    @Override
+    public String toString() {
+        return  "Nome: "+getNome()+
+                "\nTelefone: " +getTelefone()+
+                "\nIdade: "+getIdade()+
+                "\nGenero: "+getGenero()+
+                "\nId do Funcionario: "+getIdFuncionario() ;
     }
 }
 

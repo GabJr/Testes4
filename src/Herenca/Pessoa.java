@@ -5,6 +5,7 @@ public abstract class Pessoa {
     private int telefone;
     private int idade;
     private String genero;
+
     //Metodo Abstrato
     public abstract void trabalho();
 
@@ -45,13 +46,5 @@ public abstract class Pessoa {
 
     public void setGenero(String genero) {
         this.genero = genero;
-    }
-
-    @Override
-    public String toString() {
-        return  "Nome: " + nome + '\'' +
-                ", Telefone=" + telefone +
-                ", Idade=" + idade +
-                ", Genero='" + genero + '\'' ;
     }
 }
