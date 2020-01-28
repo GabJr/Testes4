@@ -17,7 +17,7 @@ public class Funcionario extends Pessoa {
     }
 
     @Override
-    //polimor
+    //polimorfismo
     public void trabalho() {
         if (idFuncionario == 0 || idFuncionario<0){
             System.out.println("Erro");
