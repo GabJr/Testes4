@@ -17,11 +17,12 @@ public class Funcionario extends Pessoa {
     }
 
     @Override
+    //polimor
     public void trabalho() {
         if (idFuncionario == 0 || idFuncionario<0){
-            System.out.println("Funcionario não encontrado");
+            System.out.println("Erro");
         }else{
-            System.out.println("Empregado como funcionario");
+            System.out.println("Registrado como funcionario");
         }
 
     }
