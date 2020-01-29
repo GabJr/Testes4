@@ -6,6 +6,8 @@ public class MainTeste {
     public static void main(String[] args) {
 
       Scanner sc = new Scanner(System.in);
+      //Teste para o git novamente
+
 
        // Pessoa pessoa0= new Funcionario(
       //    "Fulnao",3033485,28,"Masculino",25);
