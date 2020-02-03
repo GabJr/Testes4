@@ -16,6 +16,10 @@ public class Funcionario extends Pessoa {
         this.idFuncionario = idFuncionario;
     }
 
+    public static void teste() {
+
+    }
+
     @Override
     //polimorfismo
     public void trabalho() {
