@@ -35,7 +35,7 @@ public class MainTeste {
         map.put(consumidor2, produtosCompraConsu2);
 
         for (Map.Entry<Consumidor, List<Produto>> entry : map.entrySet()) {
-            System.out.println(entry.getKey().getNome());
+            System.out.println(entry.getKey().getNome()+":");
             for (Produto produto : entry.getValue()) {
                 System.out.println(produto.getNome());
             }
