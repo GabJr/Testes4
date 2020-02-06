@@ -14,4 +14,8 @@ public class Estaticos {
         System.out.println(a1.professor);
         System.out.println(a2.professor);
     }
+
+    public void sla(){
+
+    }
 }

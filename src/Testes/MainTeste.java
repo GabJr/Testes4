@@ -31,11 +31,13 @@ public class MainTeste {
         produtosCompraConsu2.add(produto3);
         produtosCompraConsu2.add(produto4);
 
+
         map.put(consumidor1, produtosCompraConsu1);
+        map.put(consumidor1, produtosCompraConsu2);
         map.put(consumidor2, produtosCompraConsu2);
 
         for (Map.Entry<Consumidor, List<Produto>> entry : map.entrySet()) {
-            System.out.println(entry.getKey().getNome()+":");
+            System.out.println(entry.getKey().getNome() +       ": ");
             for (Produto produto : entry.getValue()) {
                 System.out.println(produto.getNome());
             }
