@@ -7,9 +7,9 @@ public class MinhaThreadRunnable implements Runnable {
     public MinhaThreadRunnable(String nome, int tempo) {
         this.nome = nome;
         this.tempo = tempo;
-        Thread t = new Thread(this);//Como é necessario passar um instancia da classe MinhaThreadRunnable,
+        // Thread t = new Thread(this);//Como é necessario passar um instancia da classe MinhaThreadRunnable,
         //usa se o this. o This faz referencia a propria classe.
-        t.start();
+        //t.start();
     }
 
     public void run(){
