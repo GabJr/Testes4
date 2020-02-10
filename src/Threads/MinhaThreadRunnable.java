@@ -12,7 +12,7 @@ public class MinhaThreadRunnable implements Runnable {
         //t.start();
     }
 
-    public void run(){
+    public synchronized void run(){
         try {
             for (int i=0; i<6; i++){
                 System.out.println(nome+ " contador "+i);
