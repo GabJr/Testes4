@@ -2,7 +2,7 @@ import src.Semaphore.Shared;
 
 import java.util.concurrent.Semaphore;
 
-public class MinhaThread extends Thread {
+public class MyThread extends Thread {
     Semaphore sema;
     String nome;
 
