@@ -6,7 +6,7 @@ public class MyThread extends Thread {
     Semaphore sema;
     String nome;
 
-    public MinhaThread(Semaphore sema, String nome) {
+    public MyThread(Semaphore sema, String nome) {
         super(nome);
         this.sema = sema;
         this.nome = nome;

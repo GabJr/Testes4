@@ -1,4 +1,4 @@
-package src.com.br.gabriel.adapterPattern;
+package src.br.com.adapterPattern;
 
 import java.util.stream.IntStream;
 

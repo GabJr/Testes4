@@ -1,4 +1,4 @@
-package src.com.br.gabriel.Semaphores;
+package src.br.com.Semaphores;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

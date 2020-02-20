@@ -1,4 +1,4 @@
-package src.com.br.gabriel.adapterPattern;
+package src.br.com.adapterPattern;
 
 public class ItalianoCliente {
     public static void main(String[] args) {

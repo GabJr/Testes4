@@ -1,7 +1,7 @@
-package src.com.br.gabriel.adapterPattern;
+package src.br.com.adapterPattern;
 
 public class TradutorAdapter implements ItalianoTarget {
-    //Adaptee - A clase na qual estamos adapitando/traduzindo.
+    //Adaptee - A clase na qual estamos adapitando/
     private  JaponesAdaptee japonesAdaptee;
     //Construtor inclui a referencia para o instancia Adaptee
     public TradutorAdapter(JaponesAdaptee japonesAdaptee) {

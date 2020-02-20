@@ -1,4 +1,4 @@
-package src.com.br.gabriel.adapterPattern;
+package src.br.com.adapterPattern;
 
 public interface ItalianoTarget {
     public String leDescricao(String palabras);
