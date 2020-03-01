@@ -9,8 +9,6 @@ public class PredicateJoins {
         Calculo c = new Calculo();
         c.method(p1,x);
 
-        //Contadno o numero de letras.
-        //Usanddo Function Inteface para retornas os números de Strings
 
 
 
